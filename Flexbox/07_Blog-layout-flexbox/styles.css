@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-size: 18px;
+    box-sizing: inherit;
+    background-color: rgb(238, 238, 238);
+    padding: 3em 5em;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 0 auto;
+
+}
+
+header {
+    flex: 1 1 100%;
+    border-bottom: 3px solid black;
+    margin-bottom: 1em;
+
+}
+
+
+
+section:nth-of-type(1) {
+    flex: 1 1 75%;
+
+}
+
+aside {
+    flex: 1 1 25%;
+    padding-inline: 4em 2em;
+
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, serif;
+    padding-block: 0.8em;
+}
+
+header h1 {
+    text-transform: uppercase;
+
+}
+
+p {
+    margin-bottom: 1.5em;
+    line-height: 1.2;
+}
+
+.img-container {
+  
+    background-color: rgb(255, 255, 255);
+    width: 28%;
+    overflow: hidden;
+    margin-left: 10px;
+    border: 5px solid black;
+
+}
+
+    
+
+
+section .img-container {
+    float: right;
+    margin-left: 1em;
+    margin-bottom: 0.6em;
+}
+
+section p:nth-of-type(2)::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+section > article .img-container {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 0.6em;
+    margin-left: 0;
+}
+
+
+section > article p:nth-of-type(2)::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+img {
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    display: block;
+    width: 100%;
+}
+
+.quote {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.quote p, .quote .inner-container{
+    width: 50%;
+}
+
+.quote p {
+    padding-right: 1em;
+    border-right: 5px solid rgb(211, 204, 204);
+}
+
+.quote .inner-container {
+    padding-left: 2em;
+    font-style: italic;
+}
+
+.inner-container div{
+    display: inline-block;
+    text-align: end;
+}
+
+
+
+
+
+
+
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+aside a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+
+}
+
+ul {
+    padding-left: 2em;
+}

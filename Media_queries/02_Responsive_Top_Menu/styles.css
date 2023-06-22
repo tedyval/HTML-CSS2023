@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 25px;
+    height: 100vh;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 100px auto;
+
+    grid-template-areas:
+        "header header"
+        "aside main"
+        "footer footer";
+
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+
+body>* {
+    background-color: rgb(181, 216, 255);
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+
+header {
+    grid-area: header;
+}
+
+header h1 {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 8px;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+
+nav>ul>li {
+    list-style: none;
+    display: inline;
+}
+
+aside {
+    grid-area: aside;
+}
+
+aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+}
+
+a {
+    display: block;
+    padding: 5px 15px;
+    color: rgb(53, 100, 153);
+    text-decoration: none;
+}
+
+main {
+    grid-area: main;
+}
+
+main ul {
+    padding-left: 35px;
+}
+
+
+
+footer {
+    grid-area: footer;
+}
+
+
+@media (width <=500px) {
+
+    body {
+        grid-template-areas:
+            "header header"
+            "aside aside"
+            "main main"
+            "footer footer";
+
+    }
+
+    header h1 {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        padding-left: 8em;
+    }
+
+    nav> ul> li{
+        margin-bottom: 1em;
+    }
+
+
+
+}

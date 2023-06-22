@@ -1,0 +1,41 @@
+* , *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: inherit;
+}
+
+
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem;
+   background-color:  #EEE;
+    
+
+}
+
+body > * {
+  padding: 2rem;
+  background-color: #FFF;
+  border-radius: 0.4rem;
+  color: #000;
+} 
+
+header, footer {
+    flex-basis: 100%
+}
+
+
+main {
+    flex: 8 1 40rem;
+}
+
+aside {
+   flex: 2 1 20rem;
+}
+

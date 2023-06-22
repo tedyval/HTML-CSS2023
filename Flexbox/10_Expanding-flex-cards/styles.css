@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    padding-inline: 3em;  
+  
+}
+
+.container {
+    display: flex; 
+    width: 1400;  
+}
+
+img {
+    width: 400px;
+    display: block;
+    transform: scale(-0.3, 1);
+    margin: -130px;
+}
+ 
+img:hover {
+    transform: scale(1);
+    margin-right: 15px;
+}

@@ -1,0 +1,39 @@
+@media (width <=600px) {
+
+    .navigation-nav{
+        display: none;
+    }
+
+    .home-tab-selector-cards-container{
+    
+        grid-template-columns:  1fr;
+    }
+
+    .home-image-container{
+        display: none;
+    }
+
+   .home-top-part {
+    flex-direction: column;
+   }
+
+   .home-links-container {
+    flex-direction: column;
+   }
+
+   .home-links-container {
+    gap: 1em;
+   }
+
+   .home-text13 {
+    width: max-content;
+   }
+
+   .button-primary.button{
+    padding: 1.5rem 2rem;
+   }
+
+
+
+
+}

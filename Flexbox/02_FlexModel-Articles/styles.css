@@ -1,0 +1,51 @@
+/* * {
+   box-sizing: border-box; 
+   margin: 0;
+   padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: inherit;
+    padding: 5em;
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    gap: 3em;
+
+    
+}
+
+article {
+    flex: 1 1 0;
+    padding: 0 1em;
+}
+
+article > h2 {
+    padding: 0.5em 0;
+    font-size: 2em;
+} */
+
+
+html {
+   font-family: Helvetica, sans-serif;
+   line-height: 1.5; 
+}
+
+h2 {
+    font-family: Georgia, serif;
+    line-height: 1.2;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+    margin: 0 auto;
+}

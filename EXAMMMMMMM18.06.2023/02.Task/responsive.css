@@ -1,0 +1,45 @@
+@media (width <=600px) {
+
+
+    .home-hero {
+        flex-direction: column;
+    }
+
+
+
+    .home-image1 {
+        order: -1;
+        width: 100%;
+    }
+
+    .home-features{
+        height: auto;
+    }
+
+    .home-hero-text-container {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .home-cards-container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .home-feature-card {
+        align-self: center;
+        width: 100%;
+    }
+
+    .home-feature-card1, .home-feature-card2 {
+        width: 100%;
+    }
+
+  
+
+
+    .home-stats {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,268 @@
+@import url("https://use.fontawesome.com/releases/v6.4.0/css/all.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: inherit;
+    width: 100%;
+    padding: 0.5em;
+    font-family: PT Sans, sans-serif;
+   
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 5.2em; 
+}
+
+
+
+.first , .second, .third {
+    width: 100%;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.first {
+    flex-basis: 40rem;
+  
+    background-image: url(image/computer-main.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(255,255,255);
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255,255,255);
+    text-shadow: 0 10px 10px rgb(0, 0, 0, 0.5);
+    /* z-index: 10; */
+    background-color: rgb(0, 0, 0, 0.4);
+}
+
+.overlay h1 {
+    font-size: 3em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.header-par {
+    font-size: 1.2em;
+    padding-inline: 20em;
+    text-align: center;
+}
+
+.icons {
+    width: 100%;
+    padding-inline: 14em;
+    padding-block: 2em ;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 1.2em;
+}
+
+.icons i {
+    font-size: 1em;
+    margin-right: 0.3em;
+}
+
+.green-bt {
+    background-color: #00D08E;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 0.3em 1em;
+    font-weight: 700;
+    margin-top: 5em;
+}
+
+
+.follow {
+    margin-top: 5em;
+    font-size: 1.2em; 
+}
+
+.follow i{
+    margin-left: 0.5em;
+}
+
+
+
+.second {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.right,
+.left {
+    display: flex;
+    justify-content: center;
+    flex-basis: 50%;
+}
+
+.image1 {
+    flex-basis: 50%;
+    align-self: stretch;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.right .content {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2.5em 4em;
+}
+
+.sub-title {
+    font-size: 1.4em;
+    margin-top: 1em;
+    font-weight: 800;
+    color: rgb(0,0,0, 0.7) ;
+}
+
+.right .content ul{
+    list-style: none;
+    margin-top: 1.5em;
+}
+
+.right .content ul li {
+    font-size: 1.2em;
+    color: rgb(0,0,0, 0.6) ;
+    margin-bottom: 0.8em;
+    font-weight: 600;
+}
+
+.right .content i {
+    color: #00D08E;
+    font-size: 1.2em;
+    margin-right: 1em;
+}
+
+.left .content {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+
+.icons2,
+.image2 {
+    flex-basis: 50%;
+}
+
+.icons2 {
+    flex-basis: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    gap: 2em;
+}
+
+.item {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.icon {
+    width: 45%;
+}
+
+
+.icon img{
+    width: 100%;
+    display: block;
+}
+
+.title {
+    color: #00D08E;
+    font-size: 1em;
+    font-weight: 900;
+}
+
+
+
+
+
+.third {
+    flex-basis: 30em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #B2F1DD;
+    padding: 2.5em 5.5em;
+    gap: 4em;
+}
+
+.third h2 {
+    flex-basis: 100%;
+    font-size: 1.8em;
+    
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 3.2em;
+    justify-content: center;
+
+}
+
+.col {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.heading {
+    font-size: 1.2em;
+    font-weight: 600;margin-bottom: 1.5em;
+
+}
+
+.email span {
+    font-weight: 600;
+}
+
+.col-content {
+    font-size: 1em;
+    text-align: center;
+}
+
+.email {
+    flex-basis: 100%;
+}

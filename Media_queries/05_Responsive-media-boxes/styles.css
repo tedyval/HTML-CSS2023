@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-family:  Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+
+}
+
+body {
+    font: inherit;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+h1,h2,h3 {
+    font: 1em/1.2 Georgia, serif;
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    max-width: 300px;
+    
+}
+
+
+
+.image {
+    width: 100%;
+    aspect-ratio: 2/1.2;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.content {
+    width: 100%;
+    padding: 1em;
+    
+}
+
+h3 {
+    font-weight: 600;
+    margin-bottom: 1em;
+
+}
+
+
+
+a {
+    background-color: rgb(0, 153, 0);
+    text-decoration: none;
+    display: block;
+    width: max-content;
+    margin-left: auto;
+    padding: 0.3em 1em;
+    line-height: 1;
+    border-radius: 4px;
+}
+
+@media (width >= 500px) {
+    html {
+        font-size:16px;
+    
+    }
+
+}
+

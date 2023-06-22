@@ -1,0 +1,85 @@
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    box-sizing: inherit;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+div:nth-child(1){
+    background-image: linear-gradient(to right, #094c79,#0c7a64);
+    position: relative;
+  
+}
+
+div:nth-child(2){
+    background-image: linear-gradient(to right, rgb(134, 39, 93),#be6511);
+    position: relative;
+   
+}
+
+
+body > div:nth-child(1)> div {
+    width: 15%;
+    max-height: 90%;
+    position: absolute;
+    top: 30%;
+    left: 42%;
+    
+
+}
+
+
+
+body > div:nth-child(2)> div {
+    width: 15%;
+    max-height: 90%;
+    
+    position: absolute;
+    top: 4%;
+    left: 42%;
+  
+}
+
+section.card.first {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0
+    
+}
+
+section.card.second {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0
+ 
+}
+
+img {
+    display: block;
+    width: 100%;
+    
+    
+}
+
+i {
+    color: white;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}

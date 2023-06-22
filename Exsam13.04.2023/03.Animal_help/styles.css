@@ -1,0 +1,382 @@
+@import url("https://use.fontawesome.com/releases/v6.4.0/css/all.css");
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+html {
+    font: 16/1.5 Ariel, sans-serif;
+}
+
+body {
+    font: inherit;
+    box-sizing: inherit;
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+
+h2 {
+    font-size: 2.1rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.3rem;
+}
+
+h6 {
+    font-size: 1.1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.wrapper {
+    width: 100%;
+   /*  width: 1200px; */
+    margin: 0 auto;
+}
+
+header {
+    padding: 1rem 1.5rem 1rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+nav ul a {
+    text-decoration: none;
+    margin-left: 1rem;
+    color: black;
+    font-weight: 600;
+}
+
+.join {
+    display: flex;
+    justify-content: space-around;
+    background-color: #85DCFF;
+}
+
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    flex: 0 1 45%;
+    padding: 3rem;
+
+}
+
+.content h4 {
+    text-align: left;
+}
+
+.img-hand {
+    flex: 0 1 30%;
+}
+
+.img-hand img {
+    display: block;
+    width: 100%;
+}
+
+
+.formular {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.donate {
+    flex: 1 1 50%;
+    text-align: center;
+   
+}
+
+.donate a {
+    display: block;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding-block: 0.5rem;
+    border-radius: 3px;
+}
+
+.link-to {
+    flex: 1 1 52%;
+    text-align: center;
+
+}
+
+.link-to a {
+    display: block;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding-block: 0.5rem;
+    border-radius: 3px;
+}
+
+.svgs-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-block: 1rem;
+    padding-inline: 5rem;
+}
+
+.svgs-section .subtitle {
+    font-size: 1.1rem;
+    color: black;
+    font-weight: 600;
+    padding-inline: 15rem ;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.svgs-section .container {
+    display: flex;
+    gap: 3.5rem;
+}
+
+
+.svgs-section .container article {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 30%;
+    text-align: center;
+}
+
+svg {
+    height: 8rem;
+    width: auto;
+    fill: #85DCFF;
+  }
+  
+  .svgs-section .container article h5{
+    font-size: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .svgs-section .container article p {
+    font-size: 0.8rem;
+  }
+
+.work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #85DCFF;
+    gap: 4rem;
+    padding: 2rem 14rem;
+}
+
+.work h3 {
+    margin-top: 1.5rem;
+}
+
+.ul-list {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.ul-list ul {
+   list-style: none;
+    list-style-position: outside;
+    
+}
+
+
+.ul-list ul i {
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+    position: relative;
+    top: -0.2rem;
+}
+
+.ul-list>div {
+    flex: 0 1 45%;
+}
+
+.ul-list li {
+   
+    margin-bottom: 1rem;
+    padding-inline: 2rem;   
+
+}
+
+
+
+
+
+.mission {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 1rem 4rem;
+}
+
+.animals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.animals h2 {
+    margin-top: 1rem;
+}
+
+.animals p {
+    margin-bottom: 1.5rem;
+}
+
+.container-animals {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    padding-inline: 3rem;
+}
+
+.image {
+
+    flex: 1 1 22%;
+}
+
+.image img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.work-section {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-weight: 600;
+    margin-block: 3rem;
+}
+
+.container-offers {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-inline: 10rem;
+    border-radius: 5px;
+}
+
+.offer {
+    flex: 1 1 30%;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px 5px;
+}
+
+.offer>* {
+    padding-block: 1rem;
+}
+
+.title-offer {
+    background-color: #85DCFF;
+    padding-inline: 1em;
+}
+
+.offer-content {
+    padding-inline: 1em;
+}
+
+.last-section {
+    display: flex;
+
+}
+
+.image-first {
+    flex: 1 1 50%;
+}
+
+.image-first img {
+    width: 100%;
+    display: block;
+
+}
+
+.content-news {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 50%;
+    justify-content: center;
+    align-items: left;
+    padding: 3rem;
+    gap: 1.5rem;
+}
+
+.content-news h4 {
+    text-align: left;
+}
+
+.content-news form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.content-news form input {
+    width: 50%;
+    padding-block: 0.6rem;
+}
+
+.content-news form button {
+    width: 30%;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding-block: 0.6rem;
+}
+
+footer {
+    padding-inline: 2rem;
+    padding-block: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.icons-social i {
+    margin-right: 0.6rem;
+}

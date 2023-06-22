@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    box-sizing: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+    
+}
+
+header {
+    height: 10vh;
+    flex-basis: 100%;
+    border-bottom: 3px solid black;
+    text-transform: uppercase;
+    padding-inline: 3em;
+    padding-top: 2em;
+   
+ 
+}
+
+
+
+main { 
+    padding-inline: 3em;
+    height: 80vh;
+    overflow: auto;
+}
+
+main h2 {
+    padding-top: 2em;
+    padding-bottom: 1em;
+
+}
+
+main p {
+    margin-bottom: 1em;
+   
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+    height: 10vh;
+    padding-inline: 3em;
+    flex-basis: 100%;
+}
+

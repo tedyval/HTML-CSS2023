@@ -1,0 +1,213 @@
+@import url("https://use.fontawesome.com/releases/v6.4.0/css/all.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: PT serif;
+    box-sizing: inherit;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header> * {
+    flex-basis: 100%;
+}
+
+.first-header {
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(204, 0, 0);
+    padding-block: 15px;
+    padding-inline: 30px;
+    color: white;
+}
+
+i {
+    margin-right: 5px;
+}
+
+.second-header {
+    display: flex;
+    flex-wrap: wrap;
+
+    background-image: url(image/fitness-main.jpg);
+    height: 500px;
+    background-position:  center ;
+    background-size: cover;
+    color: white;
+    
+}
+
+
+.second-header > * {
+    flex-basis: 100%;
+}
+
+.second-header p {
+    margin-bottom: -5em;
+}
+
+
+ 
+
+.list {
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    padding-top: 20px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.second-header>nav> ul > li > a {
+    margin-right: 40px;
+}
+
+.big{
+    font-family: PT sans;
+    text-transform: uppercase;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+.medium {
+    font-size: 18px;
+    padding-inline: 30em;
+}
+
+
+.button {
+    padding: 8px 15px;
+    background-color: rgb(204, 0, 0); 
+    border-radius: 7px;
+}
+
+
+
+
+
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 4em;
+    padding-top: 2em;
+    
+    
+
+}
+
+
+
+section .heading {
+    flex-basis: 100%;
+    font-size: 30px;
+    font-weight: 600;
+    height: 38px;
+  
+}
+
+.two {
+    margin-bottom: -50px;
+}
+
+
+section:first-child{
+    height: 350px;
+    justify-content: space-around;
+}
+
+section:last-child{
+    background-color: rgb(242, 242, 242);
+    justify-content: space-around;
+    height: 600px;
+}
+
+.hyphen{
+    flex-basis: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    color:rgb(204, 0, 0); 
+}
+
+
+
+
+
+.icon {
+    width: 50px;
+    display: inline-block;
+   
+}
+
+.version{
+    margin-bottom: 10px;
+}
+
+.different{
+    margin-bottom: 15px;
+} 
+
+
+.icon img {
+    display: block;
+    width: 100%;
+}
+
+.card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    
+}
+
+.text {
+    padding-inline: 8em;
+}
+
+
+footer {
+    background-color: rgb(204, 0, 0);
+    padding-block: 10px;
+}
+
+.job, .subtitle {
+    color: rgb(204, 0, 0);
+}
+
+
+.name{
+    font-weight: 600;
+}
+
+.text2{
+    /* color:rgb(179, 179, 179); */
+    padding-inline: 8em;
+    opacity: 40%;
+}
+
+
+
+
+

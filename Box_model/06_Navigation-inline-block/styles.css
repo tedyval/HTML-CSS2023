@@ -1,0 +1,55 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+   font-family: inherit;
+    padding: 30px 30px;
+}
+
+header {
+    border-bottom: 2px solid black;
+    vertical-align: baseline;
+    font-weight: 700;
+    
+    
+}
+
+body > h1 {
+    font-size: 18px;
+}
+
+body > header > h1 {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+
+header > nav {
+    display: inline-block;
+ 
+}
+
+header > ul {
+
+    list-style-type: none;
+    
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+li a{
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: rgb(63, 165, 63)
+
+
+}
