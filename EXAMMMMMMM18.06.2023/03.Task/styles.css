@@ -58,11 +58,12 @@ h6 {
     margin-bottom: 1.5rem;
 }
 
-/*a {
+a {
 
     text-decoration: none;
     text-align: center;
-}*/
+    color: black;
+}
 
 .wrapper {
     /* width: 100%;*/
@@ -138,7 +139,7 @@ nav ul li {
 .second {
     display: flex;
     padding-inline: 8rem;
-
+    padding-block: 3rem;
     justify-content: center;
 
 }
@@ -148,26 +149,32 @@ nav ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
     border-inline: 1px solid rgb(158, 154, 154);
-    padding-block: 1.2rem;
+    padding-bottom: 1.2rem;
 }
+
+
 
 .numbers {
     font-size: 1.4rem;
     color: black;
     font-weight: 600;
+    padding-bottom: 1.5rem;
 }
 
 .text{
-    font-size: 0.6rem;
-    color:gray;
+    font-size: 0.9rem;
+    text-align: center;
+    padding-inline: 1rem;
+    
 }
 
 
 .third {
     display: flex;
     background-color: #ADE2DF;
-    padding-inline: 8rem;
+    padding-inline: 12rem;
 
     justify-content: space-between;
     
@@ -187,22 +194,58 @@ nav ul li {
 }
 
 .content {
-    width: 50%;
-    padding: 1rem;
+    width: 65%;
+    padding-left: 1rem;
+    padding-right: 4rem;
+}
+
+.third .content h4{
+    font-size: 1.6rem;
+    text-align: left;
+    padding-right: 8rem;
+    padding-top: 1.5rem;
+}
+
+dt{
+    font-size: 0.9rem;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+dd{
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.explore {
+    font-size: 0.8rem;
+    padding-bottom: 0.3rem; 
+    border-bottom: 1px solid rgb(77, 75, 75);
+    
+}
+
+.explore i {
+    margin-left: 0.3rem;
+    margin-right: 0;
 }
 
 
 
 .forth {
     display: flex;
+    flex-direction: column;
     justify-content:center;
     background-color: #F3F5FA;
     padding-block: 1.5rem;
 }
 
 .forth h6 {
+    width: max-content;
+    margin: 0 auto;
     font-size: 0.8rem;
-    padding: 0.8rem;
+    padding: 0.2rem;
+    margin-bottom: 1rem;
     background-color: #ADE2DF;
 
 }
@@ -210,7 +253,7 @@ nav ul li {
 .fifth {
     display: flex;
     font-size: 1rem;
-    padding-block: 1rem;
+    
 }
 
 
@@ -226,6 +269,7 @@ list-style: none;
 .container-cards {
     flex: 0 0 60%;
     display: flex;
+   
 }
 
 
@@ -234,7 +278,16 @@ list-style: none;
     flex-direction: column;
     flex: 1 1 30%;
     font-size: 0.9rem;
-    gap: 1rem
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.art-two {
+    border-inline: 1px solid  rgb(178, 175, 175);
+}
+
+.container-cards article li {
+padding-bottom: 0.5rem;
 }
 
 .fifth a {
@@ -243,48 +296,75 @@ list-style: none;
     background-color: #ADE2DF;
     width: 85%;
     text-align: center;
+    width: 100%;
 
 }
 
-.rigth {
+.right {
     display: flex;
     flex-direction: column;
     flex: 0 0 40%;
     background-color: #ADE2DF;
     position: relative;
+    padding-inline: 2rem;
+    padding-top: 1rem;
 }
 
-.rigth ul {
+.right ul {
     list-style: none;
     font-size: 0.9rem;
-    margin-bottom: 6rem;
+    margin-top: 1rem;
 }
 
-.rigth ul li {
+.right ul li {
     margin-bottom: 0.8rem;
     font-size: 0.9rem;
 }
 
-.btn {
+.right .btn {
     display: block;
-   
+    position: relative;
+    bottom: -8rem;
     width: 100%;
     background-color: black;
     color: white;
+    
+    
+}
+
+.gray {
+    width: 100%;
+    aspect-ratio: 24/1;
+    background-color: #F3F5FA;
 }
 
 .last {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:1.5rem;
     background-color: #ADE2DF;
+    padding-block: 3rem;
 
+}
+
+.last h1{
+    padding-inline: 28rem;
+    margin-bottom: 0;
+}
+
+.last p{
+    padding-inline: 24rem;
+    text-align: center;
+}
+
+.last .buttons {
+    padding-bottom: 0;
 }
 
 footer {
     display: flex;
     justify-content: space-between;
+    padding-block: 1.5rem;
    
 }
 
